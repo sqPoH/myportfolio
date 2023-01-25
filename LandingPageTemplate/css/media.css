@@ -1,0 +1,33 @@
+@media (max-width: 375px){
+   .container{
+      box-sizing: border-box;
+      width: 375px;
+      margin: 0 auto;
+   }
+   .promo{
+      min-height: 836px;
+   }
+   .promo .promo__header{
+      margin-top: 65px;
+      margin-left: 10px;
+      font-family: 'Gilroy';
+      font-weight: bold;
+      font-size: 47px;
+      line-height: 58px;
+      color: #070707;
+   }
+   .promo .promo__descr{
+      padding: 23px 191px 37px 28px;
+      font-family: 'Gilroy';
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      color: #070707;
+   }
+   .promo__imgmin{
+      padding: 0px 30px 83px 30px;
+   }
+}
+@media (min-width: 375px) and (max-width: 1200px) {
+   
+}
