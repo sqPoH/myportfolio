@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+p{
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.37em;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.btn{
+    width: 218px;
+    height: 69px;
+    padding: 22px 70px;
+    background: #000000;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background: #212121;
+}
+.header{
+    padding-top: 60px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+.logo{
+    display: block;
+    margin: 0 auto;
+}
+.offer-text{
+    font-size: 18px;
+    margin-top: 30px;
+}
+.offer{
+    width: 465px;
+}
+.offer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 79px;
+}
+
+section{
+    padding-top: 120px;
+}
+.digits{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto 0 auto;
+}
+.digit-item{
+    display: flex;
+    align-items: center;
+}
+.digit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    width: 77px;
+    height: 77px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-right: 34px;
+    transition: all 0.5 ease;
+}
+.digit-item:hover .digit{
+    background: #000;
+    color: #fff;
+}
+.digit-title{
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+
+.prctice-wrap{
+    width: 1110px;
+    height: 486px;
+    background: linear-gradient(102deg, #E8FFE8 17.38%, #D1F0FF 81.25%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    padding: 93px 168px 89px 122px;
+}
+.practice-block{
+    width: 432px;
+    min-height: 304px;
+}
+.practice-title{
+    text-align: left;
+}
+.practice-text{
+    margin: 24px 0;
+    width: 431px;
+}
+.practice-img{
+    margin-right: 101px;
+}
+.footer{
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
